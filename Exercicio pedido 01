@@ -1,0 +1,38 @@
+#include <stdio.h>
+
+int main() {
+    int codigo, quantidade;
+    
+    printf("Digite o codigo: ");
+    scanf("%i", &codigo);
+    
+    printf("Digite a quantidade: ");
+    scanf("%i", &quantidade);
+    
+    int valor;
+    
+    if (codigo == 100 ){
+        valor = quantidade * 120;
+    }
+    else if (codigo == 101){
+        valor = quantidade * 130;
+    }
+    else if (codigo == 102){
+        valor = quantidade * 150;
+    }
+    else if (codigo == 103){
+        valor = quantidade * 120;
+    }
+    else if (codigo == 104){
+        valor = quantidade * 170;
+    }
+    else if (codigo == 105){
+        valor = quantidade * 220;
+    }
+    else if (codigo == 106){
+        valor = quantidade * 100;
+    }
+    printf("Valor a ser pago: R$ %i.%.2i\n", valor / 100, valor % 100);
+
+    return 0;
+}
