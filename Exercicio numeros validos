@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main()
+{
+    float num_valido;
+    printf("Digite um valor valido: ");
+    scanf("%f", &num_valido);
+    
+    if (num_valido <=10 && num_valido >=0 ){
+        printf("Numero valido");
+    }
+    else{
+        printf("Digite um numero valido");
+    }
+
+    return 0;
+}
