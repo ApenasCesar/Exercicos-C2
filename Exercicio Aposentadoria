@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main()
+{
+    int idade, tempo_trabalhado;
+    
+    printf("Digite sua idade: ");
+    scanf("%i", &idade);
+    
+    printf("Digite seu tempo trabalhado: ");
+    scanf("%i", &tempo_trabalhado);
+    
+    if (idade >= 65 && tempo_trabalhado >= 30){
+        printf("Pode se aposentar por idade e tempo trabalhado");
+    }
+    else if (idade >= 60 && tempo_trabalhado >= 25){
+        printf("Idade ou tempo trabalhado compativel com aposentadoria");
+    }
+    else{
+        printf("Vai ter que trabalhar mais");
+    }
+
+    return 0;
+}
