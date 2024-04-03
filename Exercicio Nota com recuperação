@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+int main()
+{
+    float nota1, nota2, soma;
+    
+    printf("Digite a primeira nota: ");
+    scanf("%f", &nota1);
+    
+    printf("Digite a segunda nota: ");
+    scanf("%f", &nota2);
+    
+    soma = (nota1 + nota2) / 2;
+    
+    if (soma >= 5){
+        printf("Aluno aprovado com a nota: %.2f\n", soma);
+    }
+    else if (soma <= 4){
+        printf("Aluno ficou de recuperção com a nota: %.2f\n", soma);
+    }
+    else{
+        printf("Aluno reprovado com a nota: %.2f\n", soma);
+    }
+    
+    
+    
+    return 0;
+}
