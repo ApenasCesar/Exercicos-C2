@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main()
+{
+    int senha = 1234;
+    int senha_digitada;
+    
+    while (senha ){
+        printf("Digite sua senha: ");
+        scanf("%i", &senha_digitada);
+        
+        if (senha_digitada == senha){
+            printf("Senha correta \n");
+        }
+        else{
+            printf("Senha incorreta \n");
+            continue;
+        }
+    }
+
+    return 0;
+}
