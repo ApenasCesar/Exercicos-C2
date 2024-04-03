@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main()
+{
+    int num;
+    
+    printf("Digite: ");
+    scanf("%d", &num);
+    
+    if(num % 2 == 0){
+        printf("par");
+    } 
+    else{
+        printf("impar");
+    }
+
+    return 0;
+}
