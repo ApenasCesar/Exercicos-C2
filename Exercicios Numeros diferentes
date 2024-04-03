@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main()
+{
+    int num1, num2;
+    printf("Digite um numero: ");
+    scanf("%i", &num1);
+    printf("Digite um numero: ");
+    scanf("%i", &num2);
+    
+    if (num1 == num2){
+        printf("Numeros iguais");
+    }
+    else{
+        printf("Numeros diferentes");
+    }
+
+
+    return 0;
+}
