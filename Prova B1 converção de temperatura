@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main()
+{
+    float temp, f;
+    
+    printf("Digite a temperatura: ");
+    scanf("%f", &temp);
+    
+   f = temp *(9.0/5.0) + 32;
+   printf("A temperatura convertida é: %.2f\n", f);
+    
+    
+}
